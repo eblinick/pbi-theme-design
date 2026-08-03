@@ -1,0 +1,32 @@
+I am creating a design for my business Elke Blinick Consultants. The service I provide
+center around Power BI and include Semantic modeling, Visualization and DAX optimization.
+I need some colors and fonts that will portray this.
+
+
+Please do these 4 actions:
+1. add this text:
+"
+Key differences: Claude's theme is the only one with warm accent colors (coral, rust, peach)
+and the only one defining good/neutral/bad/maximum/center/minimum
+"
+in the section under Color Swatches
+
+2. and this text:
+"
+Created a bar char and a ribbon chart using each theme to compare.
+There does not seem to be much of a difference between the 2 ChatGPT
+generated themes. 
+" 
+under the section Comparison Images
+
+3. remove the [Caption goes here -placeholder] for the comparison images
+
+4. shrink the Color Swatches part. It takes too much vertical space right now
+
+Please add this text in the text section under My Theme
+"
+I liked the ChatGPT Modern BI best, but I also wanted a red. So I removed the Dark Navy
+from the Modern BI theme and inserted the Dark Orange from the Claude theme in position
+4 in the Modern BI theme. The result looks very similar to the Power BI built in 'Classroom'
+theme. 
+"

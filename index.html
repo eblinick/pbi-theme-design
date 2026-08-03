@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PBI Theme Comparison</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="page-wrap">
+
+  <header class="site-header">
+    <h1>Power BI Theme Comparison</h1>
+    <p class="sub">Claude vs. Modern Tech Chat vs. Modern BI Chat</p>
+    <div class="intro-text">
+      <p>I used a prompt in Claude and ChatGPT to create a Power BI theme json file. Keywords:</p>
+      <ul>
+        <li>Power BI</li>
+        <li>DAX</li>
+        <li>Visualization</li>
+        <li>Semantic Modeling</li>
+        <li>SQL</li>
+      </ul>
+      <p>This is what Claude and ChatGPT came up with.</p>
+    </div>
+  </header>
+
+  <!-- ================= Section 1: Color Swatches ================= -->
+  <section class="block" id="color-swatches">
+    <h2>Color Swatches</h2>
+    <div class="intro-text">
+      <p>Key differences: Claude's theme is the only one with warm accent colors (coral, rust, peach) and the only one defining good/neutral/bad/maximum/center/minimum</p>
+    </div>
+
+    <table class="swatch-table swatch-table--compact">
+      <tr>
+        <th>Slot</th>
+        <th>Claude</th>
+        <th>Modern Tech Chat</th>
+        <th>Modern BI Chat</th>
+      </tr>
+
+      <tr><td class="label">Data Color 1</td>
+        <td><div class="swatch" style="background:#16233F"></div></td>
+        <td><div class="swatch" style="background:#1B365D"></div></td>
+        <td><div class="swatch" style="background:#163A5F"></div></td>
+      </tr>
+      <tr><td class="label">Data Color 2</td>
+        <td><div class="swatch" style="background:#2FA8A0"></div></td>
+        <td><div class="swatch" style="background:#00B7C3"></div></td>
+        <td><div class="swatch" style="background:#0E74D7"></div></td>
+      </tr>
+      <tr><td class="label">Data Color 3</td>
+        <td><div class="swatch" style="background:#FF7A59"></div></td>
+        <td><div class="swatch" style="background:#5A4FCF"></div></td>
+        <td><div class="swatch" style="background:#1FA89A"></div></td>
+      </tr>
+      <tr><td class="label">Data Color 4</td>
+        <td><div class="swatch" style="background:#A9B4C4"></div></td>
+        <td><div class="swatch" style="background:#4C78A8"></div></td>
+        <td><div class="swatch" style="background:#F2C811"></div></td>
+      </tr>
+      <tr><td class="label">Data Color 5</td>
+        <td><div class="swatch" style="background:#0F6E56"></div></td>
+        <td><div class="swatch" style="background:#7FD3DA"></div></td>
+        <td><div class="swatch" style="background:#4F6D8A"></div></td>
+      </tr>
+      <tr><td class="label">Data Color 6</td>
+        <td><div class="swatch" style="background:#993C1D"></div></td>
+        <td><div class="swatch" style="background:#8E84E8"></div></td>
+        <td><div class="swatch" style="background:#7CC6C4"></div></td>
+      </tr>
+      <tr><td class="label">Data Color 7</td>
+        <td><div class="swatch" style="background:#5DCAA5"></div></td>
+        <td><div class="swatch" style="background:#F2C811"></div></td>
+        <td><div class="swatch" style="background:#7AA7E0"></div></td>
+      </tr>
+      <tr><td class="label">Data Color 8</td>
+        <td><div class="swatch" style="background:#F0997B"></div></td>
+        <td><div class="swatch" style="background:#6B7280"></div></td>
+        <td><div class="swatch" style="background:#8C8C8C"></div></td>
+      </tr>
+
+      <tr><td class="label">Background</td>
+        <td><div class="swatch" style="background:#F7F9FC"></div></td>
+        <td><div class="swatch" style="background:#FFFFFF"></div></td>
+        <td><div class="swatch" style="background:#FFFFFF"></div></td>
+      </tr>
+      <tr><td class="label">Foreground</td>
+        <td><div class="swatch" style="background:#16233F"></div></td>
+        <td><div class="swatch" style="background:#333333"></div></td>
+        <td><div class="swatch" style="background:#333333"></div></td>
+      </tr>
+      <tr><td class="label">Table Accent</td>
+        <td><div class="swatch" style="background:#2FA8A0"></div></td>
+        <td><div class="swatch" style="background:#00B7C3"></div></td>
+        <td><div class="swatch" style="background:#0E74D7"></div></td>
+      </tr>
+
+      <tr><td class="label">Good</td>
+        <td><div class="swatch" style="background:#0F6E56"></div></td>
+        <td class="na">not defined</td>
+        <td class="na">not defined</td>
+      </tr>
+      <tr><td class="label">Neutral</td>
+        <td><div class="swatch" style="background:#A9B4C4"></div></td>
+        <td class="na">not defined</td>
+        <td class="na">not defined</td>
+      </tr>
+      <tr><td class="label">Bad</td>
+        <td><div class="swatch" style="background:#993C1D"></div></td>
+        <td class="na">not defined</td>
+        <td class="na">not defined</td>
+      </tr>
+    </table>
+  </section>
+
+  <!-- ================= Section 2: Comparison Images (side by side) ================= -->
+  <section class="block" id="image-comparisons">
+    <h2>Comparison Images</h2>
+    <div class="intro-text">
+      <p>Created a bar chart and a ribbon chart using each theme to compare. There does not seem to be much of a difference between the 2 ChatGPT generated themes.</p>
+    </div>
+
+    <div class="comparison-row">
+      <figure class="comparison-figure">
+        <img src="Theme_Color_Comparison50Perc.jpg" alt="Card layout color comparison across the three themes">
+      </figure>
+
+      <figure class="comparison-figure">
+        <img src="Theme_Ribbon_Comparison50Perc.jpg" alt="Ribbon color comparison across the three themes">
+      </figure>
+    </div>
+  </section>
+
+  <!-- ================= Section 3: My Theme ================= -->
+  <section class="block" id="my-theme">
+    <h2>My Theme</h2>
+    <div class="intro-text">
+      <p>I liked the ChatGPT Modern BI best, but I also wanted a red. So I removed the Dark Navy from the Modern BI theme and inserted the Dark Orange from the Claude theme in position 4 in the Modern BI theme. The result looks very similar to the Power BI built in 'Classroom' theme.</p>
+    </div>
+
+    <div class="comparison-row">
+      <figure class="comparison-figure">
+        <img src="MyTheme50Perc.jpg" alt="My theme card layout">
+      </figure>
+
+      <figure class="comparison-figure">
+        <img src="MyThemeRibbon50Perc.jpg" alt="My theme ribbon layout">
+      </figure>
+    </div>
+  </section>
+
+</div>
+
+</body>
+</html>
