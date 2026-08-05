@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Navigation Images — Elke Blinick Brand</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<style>
+  body {
+    font-family: 'Inter', Arial, sans-serif;
+    background: #fafafa;
+    color: #222;
+    margin: 0;
+    padding: 24px;
+  }
+
+  .page-wrap {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  section.block {
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 8px;
+    padding: 24px;
+    margin-bottom: 24px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+  }
+
+  h1.page-title {
+    font-size: 24px;
+    color: #16233F;
+  }
+
+  h2.section-title {
+    font-size: 20px;
+    color: #16233F;
+    margin-top: 0;
+  }
+
+  /* -- prompt block -- */
+  .prompt-text {
+    font-family: 'JetBrains Mono', 'Consolas', monospace;
+    font-size: 13px;
+    line-height: 1.6;
+    background: #16233F;
+    color: #E8ECF2;
+    padding: 16px;
+    border-radius: 6px;
+    white-space: pre-wrap;
+  }
+
+  /* -- nav images row -- */
+  .nav-row {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 12px;
+    justify-content: center;
+  }
+
+  figure.nav-figure {
+    margin: 0;
+    text-align: center;
+    flex: 0 1 130px;
+  }
+
+  figure.nav-figure img {
+    width: 100%;
+    max-width: 130px;
+    height: auto;
+    border-radius: 6px;
+  }
+
+  figure.nav-figure figcaption {
+    margin-top: 8px;
+    font-size: 12px;
+    color: #666;
+  }
+
+  /* -- chatgpt response row -- */
+  .chatgpt-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+
+  figure.chatgpt-figure {
+    margin: 0;
+    text-align: center;
+    flex: 1 1 300px;
+    min-width: 0;
+  }
+
+  figure.chatgpt-figure img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #e5e5e5;
+    border-radius: 6px;
+  }
+
+  /* -- filled-in content text -- */
+  .intro-text {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 16px;
+  }
+
+  /* -- placeholder text -- */
+  .placeholder-text {
+    color: #999;
+    font-style: italic;
+    font-size: 13px;
+    border: 1px dashed #ccc;
+    border-radius: 4px;
+    padding: 10px 12px;
+    margin: 8px 0 16px;
+  }
+
+  /* -- chatgpt final nav row -- */
+  .chatgpt-final-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+  }
+
+  figure.chatgpt-final-figure {
+    margin: 0;
+    text-align: center;
+    flex: 1 1 200px;
+    min-width: 0;
+  }
+
+  figure.chatgpt-final-figure img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #e5e5e5;
+    border-radius: 6px;
+  }
+</style>
+</head>
+<body>
+
+<div class="page-wrap">
+
+  <h1 class="page-title">Navigation Images</h1>
+
+  <!-- ================= Section 1: Prompt ================= -->
+  <section class="block" id="prompt">
+    <h2 class="section-title">Prompt</h2>
+    <div class="prompt-text">Imagery is also party of branding. Taking into account the
+initial prompt about my company, please generate 5 images (illustration or
+infographics) that I can use on the landing page of
+my website as navigation images. I.e. an image/infographic  about semantic models
+that is clickable and navigates to the page about semantic models.</div>
+  </section>
+
+  <!-- ================= Section 2: Nav Images (side by side) ================= -->
+  <section class="block" id="nav-images">
+    <h2 class="section-title">Claude Navigation Images</h2>
+    <div class="intro-text">
+      <p>Claude produced 5 icon style images. But I had not specified more detail. Claude produced 5 separate image files (png and svg versions) right from the start.</p>
+    </div>
+
+    <div class="nav-row">
+      <figure class="nav-figure">
+        <img src="Nav_PowerBI.png" alt="Power BI navigation image">
+      </figure>
+
+      <figure class="nav-figure">
+        <img src="Nav_DAX.png" alt="DAX navigation image">
+      </figure>
+
+      <figure class="nav-figure">
+        <img src="Nav_Visualization.png" alt="Visualization navigation image">
+      </figure>
+
+      <figure class="nav-figure">
+        <img src="Nav_SemanticModeling.png" alt="Semantic Modeling navigation image">
+      </figure>
+
+      <figure class="nav-figure">
+        <img src="Nav_SQL.png" alt="SQL navigation image">
+      </figure>
+    </div>
+  </section>
+
+  <!-- ================= Section 3: Response of ChatGPT ================= -->
+  <section class="block" id="chatgpt-response">
+    <h2 class="section-title">Response of ChatGPT</h2>
+
+    <div class="chatgpt-row">
+      <figure class="chatgpt-figure">
+        <img src="NavigationChatGPT1.jpg" alt="ChatGPT navigation image response 1">
+      </figure>
+
+      <figure class="chatgpt-figure">
+        <img src="NavigationChatGPT2.jpg" alt="ChatGPT navigation image response 2">
+      </figure>
+    </div>
+  </section>
+
+  <!-- ================= Section 4: ChatGPT ....finally ================= -->
+  <section class="block" id="chatgpt-final">
+    <h2 class="section-title">ChatGPT ....finally</h2>
+    <div class="intro-text">
+      <p>There were 2 more iterations where ChatGPT only produced 1 image file with 5 images, until I prompted for each image separately. Guess I should have specified 5 separate image files, not just separate images. While the Claude images where simple icons, the images from ChatGPT were a little overkill/busy.</p>
+    </div>
+
+    <div class="chatgpt-final-row">
+      <figure class="chatgpt-final-figure">
+        <img src="ChatGPTNavDAXOpt.png" alt="ChatGPT DAX navigation image option">
+      </figure>
+
+      <figure class="chatgpt-final-figure">
+        <img src="ChatGPTNavSQL.png" alt="ChatGPT SQL navigation image">
+      </figure>
+
+      <figure class="chatgpt-final-figure">
+        <img src="ChatGPTNavSemanticMod.png" alt="ChatGPT Semantic Modeling navigation image">
+      </figure>
+
+      <figure class="chatgpt-final-figure">
+        <img src="ChatGPTNavVisualization.png" alt="ChatGPT Visualization navigation image">
+      </figure>
+    </div>
+  </section>
+
+</div>
+
+</body>
+</html>
